@@ -1,0 +1,137 @@
+/* header */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 0;
+    background-color: #393328;
+    margin-bottom: 30px;
+}
+
+.titulo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    margin-bottom: 10px;
+}
+.links-header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.navegacao{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+/* main */
+
+.cont1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 120%;
+}
+
+.foto1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom:15px;
+    border-radius: 100%;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    width: 400px;
+}
+
+.botaolegal{
+    display: flex;
+    background-color: #002045;
+    padding: 5px 10px;
+    margin: 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5%;
+    margin-top: 50px;
+}
+.botaocabeca{
+    color: white;
+    text-decoration: none;
+}
+.magicmansion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.titulo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color:  white; 
+    background-color: #002045;
+    border-radius: 5%;
+    padding: 5px 10px;
+    margin: 15px;
+}
+.expli {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 120%;
+}
+.pezinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #002045;
+    color:  white;
+    padding: 5px 10px;
+}
+main {
+     min-height: 100vh;
+}
+.fotoSobre {
+    padding-left: 35px ;
+}
