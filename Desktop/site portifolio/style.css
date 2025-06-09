@@ -8,6 +8,10 @@
 body {
     margin: 0;
     padding: 0;
+     font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
 }
 
 html{
@@ -132,6 +136,43 @@ header{
 main {
      min-height: 100vh;
 }
-.fotoSobre {
-    padding-left: 35px ;
+
+.sobreEU {
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom:15px;
+    text-align: center;
+}
+.interesses{
+    display: flex;
+    
+    background-color: #002045;
+    color:  white;
+    text-align: center;
+    justify-content:center;
+}
+.nome{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    background-color: #002045;
+    color:  white;
+}
+.fotoSobre{
+    margin-bottom:15px;
+    border-radius: 100%;
+    margin-top:30px;
+}
+.jornada{
+    font-size: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom:15px;
+    text-align: center;
+    margin-top: 15px;
 }
